@@ -2,8 +2,8 @@ import React from 'react'
 
 const Cards = () => {
   return (
-    <div>
-      
+    <div className='btn'>
+      sa7
     </div>
   )
 }

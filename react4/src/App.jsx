@@ -6,9 +6,10 @@ function App() {
  
   return (
     <>
-    <h1>
+    <div className='red'>
       Hello Varun
-    </h1>
+    </div>
+    <button className='btn'>CLICK ME</button>
   <Cards/>
     </>
   )
