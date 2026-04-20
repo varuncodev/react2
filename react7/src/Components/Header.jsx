@@ -4,6 +4,7 @@ import Button from './Button'
 const Header = () => {
   return (<>
 
+<div className='bg-pink-100'>
 
     <div className='max-w-[70rem] m-auto text-center py-40 '>
       <h1 className='font-extrabold font-serif text-7xl '>Responsive NavBar Interactions
@@ -17,6 +18,7 @@ remote: Resolving deltas: 100% (2/2), completed with</p>
     {/* <button className='bg-amber-400 rounded-2xl  px-3 font-bold'>Click Here to Explore More</button> */}
    
      <Button title="Click Here to Explore More..."/>
+    </div>
     </div>
       </>
   )
