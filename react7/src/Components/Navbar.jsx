@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 
 const Navbar = () => {
@@ -22,9 +23,8 @@ const Navbar = () => {
 
    </div>
 
-
-   <button className='rounded-lg bg-amber-300
-   px-2 '>JOIN US</button>
+ <Button title='JOIN US'/>
+  
    </div>
 </div>
 
