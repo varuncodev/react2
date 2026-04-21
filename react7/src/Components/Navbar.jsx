@@ -15,7 +15,7 @@ const Navbar = () => {
       alt="image"
         style={{ width: "300px", height: "auto" }} /> */}
 
-   <div className='flex gap-6 items-center '>
+   <div className='flex gap-6 items-center max-[770px]:hidden '>
    <a href=''>Home</a>
    <a href=''>Work</a>  
    <a href=''>Prices</a> 

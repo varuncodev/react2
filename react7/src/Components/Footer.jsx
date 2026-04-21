@@ -6,7 +6,7 @@ const Footer = () => {
    
 
     
-   <div className=' max-w-[80rem] p-3 m-auto grid grid-cols-6 '>
+   <div className='py-[1rem] max-w-[80rem] p-3 m-auto grid grid-cols-6 max-[770px]:grid-cols-3 '>
 <h1 className='text-amber-700'><span>A</span>vo<span>E</span>Du</h1>
    {/* <img  src="https://xpertlab.com/wp-content/uploads/2024/05/3-1.jpg" 
       alt="image"
@@ -20,7 +20,7 @@ const Footer = () => {
    <a href=''>Prices</a> 
    <a href=''>Projects</a>
    </div>
-      <div className=' flex flex-col gap-1 '>
+      <div className=' flex flex-col gap-1 mb-2'>
       <h1 className='text-pink-700 mb-2 font-bold'>Pricing</h1>
    <a href=''>Home</a>
    <a href=''>Work</a>  
@@ -55,7 +55,7 @@ const Footer = () => {
 <div className='w-full h-[1px] bg-black '>
 
 
-   <div className='max-w-[80rem] m-auto flex justify-between py-2'>
+   <div className='max-w-[80rem] m-auto flex justify-between py-2 '>
     <p>Copyright trademark 2026 C</p>
 
     <div className='font-bold rounded-2xl flex gap-3'>
