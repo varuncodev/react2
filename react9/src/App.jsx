@@ -11,7 +11,7 @@ const colors= ['red','orange','pink','blue','yellow','green','black','violet']
 
   return (
    <>
-    <h1 className='justify-center flex mt-2 '>Color Switcher</h1>
+    <h1 className='justify-center flex mt-2 font-bold text-4xl bg-pink-100 p-2'>Color Switcher</h1>
 
 
     <div className='flex gap-4 my-7 justify-center   '>
