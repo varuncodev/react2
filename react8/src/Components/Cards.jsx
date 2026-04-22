@@ -32,13 +32,13 @@ const Cards = ({name,profession,imgUrl}) => {
     </div>
     <div>
       <div className='flex gap-3 items-center py-19'>
-        <CiHeart />
+        <CiHeart  className='text-red-600'/>
         <span>40.8K</span>
         <Line/>
-        <FaRegMessage />
+        <FaRegMessage className='text-blue-400'/>
          <span>90.4M</span>
           <Line/>
-        <BiShare />
+        <BiShare className='text-orange-500' />
          <span>120M</span>
       </div>
     </div>
