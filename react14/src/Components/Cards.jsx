@@ -6,7 +6,6 @@ const Cards = ({ data ,title,rating,review,offers}) => {
     <>
     <div className ='grid grid-cols-3 pt-3 gap-4 m-auto w-3/4 border-2 border-gray-300 rounded-lg p-4'>
 
- 
         <div >
 
             <img src={data.image} alt="Image 1" className=" rounded-lg shadow-md" />
@@ -20,9 +19,9 @@ const Cards = ({ data ,title,rating,review,offers}) => {
             </div>
            
            <div>
-{data.details.map((feature,index)=>{
-    return <li className='text-gray-600 ' key="">{feature}</li>
-})}
+           {data.details.map((feature,index)=>{
+            return <li className='text-gray-600 ' key="">{feature}</li>
+       })}
             
           </div>
 
@@ -32,7 +31,7 @@ const Cards = ({ data ,title,rating,review,offers}) => {
         
         <div >
             <p className='flex justify-center mt-25 font-bold text-2xl'>{data.price}/-</p>
-            <p className='flex justify-center text-xl line-through'>{data.originalPrice}/-</p>
+            <p className='flex justify-center text-xl line-through text-gray-500'>{data.originalPrice}/-</p>
             <p className='flex justify-center text-green-500 font-bold text-lg'>{data.discount}</p>
         </div>
     </div>
