@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of India?",
+    "options": ["Mumbai", "Delhi", "Kolkata", "Chennai"],
+    "answer": "Delhi"
+  },
+  {
+    "id": 2,
+    "question": "Which language is used for React?",
+    "options": ["Python", "Java", "JavaScript", "C++"],
+    "answer": "JavaScript"
+  },
+  {
+    "id": 3,
+    "question": "2 + 2 equals?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "id": 4,
+    "question": "Which hook is used for state in React?",
+    "options": ["useEffect", "useState", "useRef", "useMemo"],
+    "answer": "useState"
+  },
+  {
+    "id": 5,
+    "question": "HTML stands for?",
+    "options": [
+      "Hyper Trainer Marking Language",
+      "Hyper Text Markup Language",
+      "Hyper Text Marketing Language",
+      "Hyper Tool Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "id": 6,
+    "question": "CSS is used for?",
+    "options": ["Structure", "Styling", "Database", "Logic"],
+    "answer": "Styling"
+  },
+  {
+    "id": 7,
+    "question": "Which company developed React?",
+    "options": ["Google", "Microsoft", "Facebook", "Amazon"],
+    "answer": "Facebook"
+  },
+  {
+    "id": 8,
+    "question": "JavaScript is a ___ language?",
+    "options": ["Compiled", "Markup", "Programming", "Styling"],
+    "answer": "Programming"
+  },
+  {
+    "id": 9,
+    "question": "Which keyword is used to declare a variable?",
+    "options": ["var", "int", "string", "define"],
+    "answer": "var"
+  },
+  {
+    "id": 10,
+    "question": "Which method converts JSON to object?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.convert()",
+      "JSON.toObject()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "id": 11,
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": ["//", "<!-- -->", "#", "**"],
+    "answer": "//"
+  },
+  {
+    "id": 12,
+    "question": "Which hook runs after render?",
+    "options": ["useState", "useEffect", "useMemo", "useRef"],
+    "answer": "useEffect"
+  },
+  {
+    "id": 13,
+    "question": "Which array method adds an element at the end?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "push()"
+  },
+  {
+    "id": 14,
+    "question": "Which company makes JavaScript?",
+    "options": ["Google", "Netscape", "Microsoft", "Apple"],
+    "answer": "Netscape"
+  },
+  {
+    "id": 15,
+    "question": "Which operator is used for strict equality?",
+    "options": ["==", "===", "!=", "="],
+    "answer": "==="
+  },
+  {
+    "id": 16,
+    "question": "Which method removes last element of array?",
+    "options": ["pop()", "push()", "shift()", "splice()"],
+    "answer": "pop()"
+  },
+  {
+    "id": 17,
+    "question": "Which tag is used for JavaScript in HTML?",
+    "options": ["<js>", "<javascript>", "<script>", "<code>"],
+    "answer": "<script>"
+  },
+  {
+    "id": 18,
+    "question": "Which hook is used for side effects?",
+    "options": ["useState", "useEffect", "useContext", "useReducer"],
+    "answer": "useEffect"
+  },
+  {
+    "id": 19,
+    "question": "Which keyword stops a loop?",
+    "options": ["stop", "exit", "break", "return"],
+    "answer": "break"
+  },
+  {
+    "id": 20,
+    "question": "Which method joins array into string?",
+    "options": ["concat()", "join()", "slice()", "map()"],
+    "answer": "join()"
+  }
+]
