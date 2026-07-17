@@ -1,0 +1,9 @@
+.page{
+    background-color: black;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white ;
+
+}
