@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+a{
+  
+  transition: all linear 0.2s;
+}
+
+a:hover{
+  color: tomato;
+  scale: 0.9;
+}
+a:active{
+  scale: 0.8;
+}
