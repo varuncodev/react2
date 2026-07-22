@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
      {/* <p>heello all, Warm welcome to my coding class</p> */}
-    <Navbar/>
+     <Navbar/>
      <Outlet/>
     </>
     
