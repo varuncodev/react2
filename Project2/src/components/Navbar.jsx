@@ -5,7 +5,7 @@ import { useNewsContext } from "../context/NewsContext";
 
 const Navbar = () => {
 
-  const {setNews,fetchNews}= useNewsContext()
+  const {setNews,fetchNews} = useNewsContext()
 
   let timer;
   const searchValue =(e)=>{
